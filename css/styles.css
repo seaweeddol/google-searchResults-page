@@ -83,9 +83,13 @@ span {
   padding: 10px;
 }
 
-.fas {
+.fa-th {
   color: #545454;
   font-size: 1.3em;
+}
+
+.fa-angle-right {
+  font-size: 18px;
 }
 
 .signIn {
@@ -160,15 +164,17 @@ span {
 table {
   margin: 0 auto;
   text-align: center;
-  letter-spacing: -0.1em;
-  font-size: 2.5em;
+  letter-spacing: -0.12em;
+  font-size: 2.3em;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .pageNumber {
   font-size: 12px;
   color: rgb(50, 93, 246);
   letter-spacing: normal;
+  text-align: center;
 }
 
 .blue {
