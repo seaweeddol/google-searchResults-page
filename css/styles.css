@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto',arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  width: 100px;
+  display: inline;
+  margin: 25px;
+  vertical-align: top;
+}
+
+input {
+  display: inline;
+  width: 620px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(199, 199, 199);
+  vertical-align: top;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0 0 3px 0;
+}
+
+h2 a {
+  color: rgb(0, 3, 166);
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: green;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  color: rgb(150, 150, 150);
+}
+
+.topContainer {
+  display: block;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.accountOptions {
+  display: inline;
+  float: right;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.accountOptions li {
+  padding: 20px;
+}
+
+.signIn {
+  display: inline;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  width: 70px;
+  color: white;
+  background: #3c7ae4;
+  font-weight: bold;
+}
+
+.searchTools {
+  margin-top: 20px;
+  width: 620px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.searchToolOptions {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.left {
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.right {
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.searchToolOptions li {
+  padding: 10px;
+}
+
+.searchToolOption {
+  color: rgb(48, 48, 48);
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 3px solid #1A73E8;
+}
+
+.active a {
+  color: #1A73E8 !important;
+}
+
+.searchResults {
+  margin-left: 162px;
+  width: 620px;
+  display: inline-block;
+}
+
+.result {
+  margin: 20px 0 20px 5px;
+}
+
+.result p {
+  margin: 3px 0 25px 0;
+  color: #545454;
+  line-height: 1.5em;
+}
+
+.pages {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.blue {
+  color: rgb(50, 93, 246);
+}
+
+.red {
+  color: rgb(218, 63, 63);
+}
+
+.green {
+  color: rgb(76, 140, 68);
+}
+
+.yellow {
+  color: rgb(236, 184, 29);
+}
+
+.footer {
+  position: absolute;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid rgb(209, 209, 209);
+}
+
+.footer p, .footer ul {
+  margin-left: 162px;
+}
